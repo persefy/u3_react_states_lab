@@ -1,5 +1,7 @@
 ### SEIR 0911
 
+<img src="lisaralph.jpg">
+
 ## React Review Lab
 
 Before we break into our Front End Hackathon, lets do a bit of review in React. Our goal is going to be mapping through all 50 US States, and making dynamic routes for each of them to click on to learn more about them
