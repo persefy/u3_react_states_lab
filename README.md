@@ -17,4 +17,5 @@ Before we break into our Front End Hackathon, lets do a bit of review in React. 
 ## Requirements
 - 50 States mapped into a list/index route, with each state clickable to navigate to a show/details route that shows more information about the state from the JSON file
 - Use the React Router to create a dynamic route that will work for all 50 states
+- Each detail page should Map through the bordering states. How do we want to do this?
 - Where will UseEffect, UseState, UseParams, and UseNavigate be needed through your app?
