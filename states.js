@@ -6,7 +6,7 @@ const states = {
             "capital": "Montgomery",
             "incorporation_date": "1819-12-14",
             "timezone": "Central Time Zone",
-            "quality_of_pizza": 1
+            "quality_of_pizza": 1,
             "borders": [
                 "Tennessee",
                 "Georgia",
@@ -19,7 +19,7 @@ const states = {
             "abbreviation": "AK",
             "capital": "Juneau",
             "incorporation_date": "1959-01-03",
-            "quality_of_pizza": 1
+            "quality_of_pizza": 1,
             "timezone": "Alaska Time Zone",
             "borders": []
         },
@@ -28,7 +28,7 @@ const states = {
             "abbreviation": "AZ",
             "capital": "Phoenix",
             "incorporation_date": "1912-02-14",
-               "quality_of_pizza": 2
+               "quality_of_pizza": 2,
             "timezone": "Mountain Time Zone",
             "borders": [
                 "California",
@@ -58,7 +58,7 @@ const states = {
             "name": "California",
             "abbreviation": "CA",
             "capital": "Sacramento",
-               "quality_of_pizza": 4
+               "quality_of_pizza": 4,
             "incorporation_date": "1850-09-09",
             "timezone": "Pacific Time Zone",
             "borders": [
