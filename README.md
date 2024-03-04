@@ -19,3 +19,7 @@ Before we break into our Front End Hackathon, lets do a bit of review in React. 
 - Use the React Router to create a dynamic route that will work for all 50 states
 - Each detail page should Map through the bordering states. How do we want to do this?
 - Where will UseEffect, UseState, UseParams, and UseNavigate be needed through your app?
+
+## Bonus
+- Use a 3rd Party API to find the flag for each state when you click into that route
+- Find a Pizza image and map it to each state's page based off of their 'Quality of Pizza' value
