@@ -6,6 +6,7 @@ const states = {
             "capital": "Montgomery",
             "incorporation_date": "1819-12-14",
             "timezone": "Central Time Zone",
+            "quality_of_pizza": 1
             "borders": [
                 "Tennessee",
                 "Georgia",
@@ -18,6 +19,7 @@ const states = {
             "abbreviation": "AK",
             "capital": "Juneau",
             "incorporation_date": "1959-01-03",
+            "quality_of_pizza": 1
             "timezone": "Alaska Time Zone",
             "borders": []
         },
@@ -26,6 +28,7 @@ const states = {
             "abbreviation": "AZ",
             "capital": "Phoenix",
             "incorporation_date": "1912-02-14",
+               "quality_of_pizza": 2
             "timezone": "Mountain Time Zone",
             "borders": [
                 "California",
@@ -40,6 +43,7 @@ const states = {
             "abbreviation": "AR",
             "capital": "Little Rock",
             "incorporation_date": "1836-06-15",
+               "quality_of_pizza": 2,
             "timezone": "Central Time Zone",
             "borders": [
                 "Missouri",
@@ -54,6 +58,7 @@ const states = {
             "name": "California",
             "abbreviation": "CA",
             "capital": "Sacramento",
+               "quality_of_pizza": 4
             "incorporation_date": "1850-09-09",
             "timezone": "Pacific Time Zone",
             "borders": [
@@ -66,6 +71,7 @@ const states = {
             "name": "Colorado",
             "abbreviation": "CO",
             "capital": "Denver",
+               "quality_of_pizza": 3,
             "incorporation_date": "1876-08-01",
             "timezone": "Mountain Time Zone",
             "borders": [
@@ -82,6 +88,7 @@ const states = {
             "name": "Connecticut",
             "abbreviation": "CT",
             "capital": "Hartford",
+               "quality_of_pizza": 4,
             "incorporation_date": "1788-01-09",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -94,6 +101,7 @@ const states = {
             "name": "Delaware",
             "abbreviation": "DE",
             "capital": "Dover",
+               "quality_of_pizza": 3, 
             "incorporation_date": "1787-12-07",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -106,6 +114,7 @@ const states = {
             "name": "Florida",
             "abbreviation": "FL",
             "capital": "Tallahassee",
+               "quality_of_pizza": 3,
             "incorporation_date": "1845-03-03",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -117,6 +126,7 @@ const states = {
             "name": "Georgia",
             "abbreviation": "GA",
             "capital": "Atlanta",
+            "quality_of_pizza": 3,
             "incorporation_date": "1788-01-02",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -131,6 +141,7 @@ const states = {
             "name": "Hawaii",
             "abbreviation": "HI",
             "capital": "Honolulu",
+            "quality_of_pizza": 2,
             "incorporation_date": "1959-08-21",
             "timezone": "Hawaii-Aleutian Time Zone",
             "borders": []
@@ -139,6 +150,7 @@ const states = {
             "name": "Idaho",
             "abbreviation": "ID",
             "capital": "Boise",
+            "quality_of_pizza": 1,
             "incorporation_date": "1890-07-03",
             "timezone": "Mountain Time Zone",
             "borders": [
@@ -154,6 +166,7 @@ const states = {
             "name": "Illinois",
             "abbreviation": "IL",
             "capital": "Springfield",
+            "quality_of_pizza": 4,
             "incorporation_date": "1818-12-03",
             "timezone": "Central Time Zone",
             "borders": [
@@ -168,6 +181,7 @@ const states = {
             "name": "Indiana",
             "abbreviation": "IN",
             "capital": "Indianapolis",
+            "quality_of_pizza": 2,
             "incorporation_date": "1816-12-11",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -180,6 +194,7 @@ const states = {
         {
             "name": "Iowa",
             "abbreviation": "IA",
+            "quality_of_pizza": 2,
             "capital": "Des Moines",
             "incorporation_date": "1846-12-28",
             "timezone": "Central Time Zone",
@@ -196,6 +211,7 @@ const states = {
             "name": "Kansas",
             "abbreviation": "KS",
             "capital": "Topeka",
+            "quality_of_pizza": 2,
             "incorporation_date": "1861-01-29",
             "timezone": "Central Time Zone",
             "borders": [
@@ -209,6 +225,7 @@ const states = {
             "name": "Kentucky",
             "abbreviation": "KY",
             "capital": "Frankfort",
+            "quality_of_pizza": 1,
             "incorporation_date": "1792-06-01",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -225,6 +242,7 @@ const states = {
             "name": "Louisiana",
             "abbreviation": "LA",
             "capital": "Baton Rouge",
+            "quality_of_pizza": 2,
             "incorporation_date": "1812-04-30",
             "timezone": "Central Time Zone",
             "borders": [
@@ -238,6 +256,7 @@ const states = {
             "abbreviation": "ME",
             "capital": "Augusta",
             "incorporation_date": "1820-03-15",
+            "quality_of_pizza": 3,
             "timezone": "Eastern Time Zone",
             "borders": [
                 "New Hampshire"
@@ -247,6 +266,7 @@ const states = {
             "name": "Maryland",
             "abbreviation": "MD",
             "capital": "Annapolis",
+            "quality_of_pizza": 3,
             "incorporation_date": "1788-04-28",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -260,6 +280,7 @@ const states = {
             "name": "Massachusetts",
             "abbreviation": "MA",
             "capital": "Boston",
+            "quality_of_pizza": 3,
             "incorporation_date": "1788-02-06",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -274,6 +295,7 @@ const states = {
             "name": "Michigan",
             "abbreviation": "MI",
             "capital": "Lansing",
+            "quality_of_pizza": 4,
             "incorporation_date": "1837-01-26",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -286,6 +308,7 @@ const states = {
             "name": "Minnesota",
             "abbreviation": "MN",
             "capital": "Saint Paul",
+            "quality_of_pizza": 3,
             "incorporation_date": "1858-05-11",
             "timezone": "Central Time Zone",
             "borders": [
@@ -299,6 +322,7 @@ const states = {
             "name": "Mississippi",
             "abbreviation": "MS",
             "capital": "Jackson",
+            "quality_of_pizza": 1,
             "incorporation_date": "1817-12-10",
             "timezone": "Central Time Zone",
             "borders": [
@@ -311,6 +335,7 @@ const states = {
         {
             "name": "Missouri",
             "abbreviation": "MO",
+            "quality_of_pizza": 3,
             "capital": "Jefferson City",
             "incorporation_date": "1821-08-10",
             "timezone": "Central Time Zone",
@@ -329,6 +354,7 @@ const states = {
             "name": "Montana",
             "abbreviation": "MT",
             "capital": "Helena",
+            "quality_of_pizza": 1,
             "incorporation_date": "1889-11-08",
             "timezone": "Mountain Time Zone",
             "borders": [
@@ -342,6 +368,7 @@ const states = {
             "name": "Nebraska",
             "abbreviation": "NE",
             "capital": "Lincoln",
+            "quality_of_pizza": 1,
             "incorporation_date": "1867-03-01",
             "timezone": "Central Time Zone",
             "borders": [
@@ -357,6 +384,7 @@ const states = {
             "name": "Nevada",
             "abbreviation": "NV",
             "capital": "Carson City",
+            "quality_of_pizza": 3,
             "incorporation_date": "1864-10-31",
             "timezone": "Pacific Time Zone",
             "borders": [
@@ -371,6 +399,7 @@ const states = {
             "name": "New Hampshire",
             "abbreviation": "NH",
             "capital": "Concord",
+            "quality_of_pizza": 3,
             "incorporation_date": "1788-06-21",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -383,6 +412,7 @@ const states = {
             "name": "New Jersey",
             "abbreviation": "NJ",
             "capital": "Trenton",
+            "quality_of_pizza": 4,
             "incorporation_date": "1787-12-18",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -395,6 +425,7 @@ const states = {
             "name": "New Mexico",
             "abbreviation": "NM",
             "capital": "Santa Fe",
+            "quality_of_pizza": 2,
             "incorporation_date": "1912-01-06",
             "timezone": "Mountain Time Zone",
             "borders": [
@@ -409,6 +440,7 @@ const states = {
             "name": "New York",
             "abbreviation": "NY",
             "capital": "Albany",
+            "quality_of_pizza": 5,
             "incorporation_date": "1788-07-26",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -423,6 +455,7 @@ const states = {
             "name": "North Carolina",
             "abbreviation": "NC",
             "capital": "Raleigh",
+            "quality_of_pizza": 2,
             "incorporation_date": "1789-11-21",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -436,6 +469,7 @@ const states = {
             "name": "North Dakota",
             "abbreviation": "ND",
             "capital": "Bismarck",
+            "quality_of_pizza": 1,
             "incorporation_date": "1889-11-02",
             "timezone": "Central Time Zone",
             "borders": [
@@ -448,6 +482,7 @@ const states = {
             "name": "Ohio",
             "abbreviation": "OH",
             "capital": "Columbus",
+            "quality_of_pizza": 3,
             "incorporation_date": "1803-03-01",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -462,6 +497,7 @@ const states = {
             "name": "Oklahoma",
             "abbreviation": "OK",
             "capital": "Oklahoma City",
+            "quality_of_pizza": 2,
             "incorporation_date": "1907-11-16",
             "timezone": "Central Time Zone",
             "borders": [
@@ -477,6 +513,7 @@ const states = {
             "name": "Oregon",
             "abbreviation": "OR",
             "capital": "Salem",
+            "quality_of_pizza": 2,
             "incorporation_date": "1859-02-14",
             "timezone": "Pacific Time Zone",
             "borders": [
@@ -489,6 +526,7 @@ const states = {
         {
             "name": "Pennsylvania",
             "abbreviation": "PA",
+            "quality_of_pizza": 3,
             "capital": "Harrisburg",
             "incorporation_date": "1787-12-12",
             "timezone": "Eastern Time Zone",
@@ -505,6 +543,7 @@ const states = {
             "name": "Rhode Island",
             "abbreviation": "RI",
             "capital": "Providence",
+            "quality_of_pizza": 3,
             "incorporation_date": "1790-05-29",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -516,6 +555,7 @@ const states = {
             "name": "South Carolina",
             "abbreviation": "SC",
             "capital": "Columbia",
+            "quality_of_pizza": 2,
             "incorporation_date": "1788-05-23",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -527,6 +567,7 @@ const states = {
             "name": "South Dakota",
             "abbreviation": "SD",
             "capital": "Pierre",
+            "quality_of_pizza": 1,
             "incorporation_date": "1889-11-02",
             "timezone": "Central Time Zone",
             "borders": [
@@ -542,6 +583,7 @@ const states = {
             "name": "Tennessee",
             "abbreviation": "TN",
             "capital": "Nashville",
+            "quality_of_pizza": 1,
             "incorporation_date": "1796-06-01",
             "timezone": "Central Time Zone",
             "borders": [
@@ -559,6 +601,7 @@ const states = {
             "name": "Texas",
             "abbreviation": "TX",
             "capital": "Austin",
+            "quality_of_pizza": 2,
             "incorporation_date": "1845-12-29",
             "timezone": "Central Time Zone",
             "borders": [
@@ -571,6 +614,7 @@ const states = {
         {
             "name": "Utah",
             "abbreviation": "UT",
+            "quality_of_pizza": 1,
             "capital": "Salt Lake City",
             "incorporation_date": "1896-01-04",
             "timezone": "Mountain Time Zone",
@@ -587,6 +631,7 @@ const states = {
             "name": "Vermont",
             "abbreviation": "VT",
             "capital": "Montpelier",
+            "quality_of_pizza": 2,
             "incorporation_date": "1791-03-04",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -599,6 +644,7 @@ const states = {
             "name": "Virginia",
             "abbreviation": "VA",
             "capital": "Richmond",
+            "quality_of_pizza": 3,
             "incorporation_date": "1788-06-25",
             "timezone": "Eastern Time Zone",
             "borders": [
@@ -613,6 +659,7 @@ const states = {
             "name": "Washington",
             "abbreviation": "WA",
             "capital": "Olympia",
+            "quality_of_pizza": 2,
             "incorporation_date": "1889-11-11",
             "timezone": "Pacific Time Zone",
             "borders": [
@@ -623,6 +670,7 @@ const states = {
         {
             "name": "West Virginia",
             "abbreviation": "WV",
+            "quality_of_pizza": 1,
             "capital": "Charleston",
             "incorporation_date": "1863-06-20",
             "timezone": "Eastern Time Zone",
@@ -638,6 +686,7 @@ const states = {
             "name": "Wisconsin",
             "abbreviation": "WI",
             "capital": "Madison",
+            "quality_of_pizza": 3,
             "incorporation_date": "1848-05-29",
             "timezone": "Central Time Zone",
             "borders": [
@@ -651,6 +700,7 @@ const states = {
             "name": "Wyoming",
             "abbreviation": "WY",
             "capital": "Cheyenne",
+            "quality_of_pizza": 1,
             "incorporation_date": "1890-07-10",
             "timezone": "Mountain Time Zone",
             "borders": [
